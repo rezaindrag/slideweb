@@ -1,0 +1,27 @@
+* {
+	color: white;
+}
+html, body {
+	height:100%;
+}
+.wrapper {
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+}
+.left {
+	flex: 1;
+}
+.right {
+	width: 500px;
+	background-color: red;
+}
+
+/*bx slider*/
+.bx-wrapper {
+	height: 100%;
+	background-color: black;
+}
+.bx-controls {
+	/*display: none;*/
+}
